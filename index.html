@@ -20,15 +20,138 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  </head>
 
-  <div id="email-body">
-    <table align="right" role="presentation">
-      <tr>
-        <td>
-          <a href="#">View in Browser</a>
-        </td>
-      </tr>
-    </table>
-  </div>
+    <style type="text/css">
+      /* reset values */
+      body {
+        margin: 0;
+        background: #f5f5f5;
+      }
+      table {
+        border-spacing: 0;
+      }
+      td {
+        padding: 0;
+      }
+      img {
+        border: 0;
+      }
+      .wrapper {
+        width: 100%;
+        table-layout: fixed;
+        background: #f5f5f5;
+        padding-bottom: 50px;
+      }
+      .main {
+        background: #f5f5f5;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 600px;
+        border-spacing: 0;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: #121212;
+      }
+      .two-columns {
+        text-align: center;
+        font-size: 0;
+      }
+      .two-columns .column {
+        width: 100%;
+        max-width: 300px;
+        display: inline-block;
+        vertical-align: top;
+        text-align: center;
+      }
+      .two-columns .last {
+        padding: 15px 0;
+      }
+      .two-columns .padding {
+        padding: 20px;
+      }
+      .two-columns .content {
+        font-size: 15px;
+        line-height: 20px;
+        text-align: left;
+      }
+      .three-columns {
+        text-align: center;
+        font-size: 0;
+        padding: 15px 0 25px;
+      }
+      .three-columns .column {
+        width: 100%;
+        max-width: 200px;
+        display: inline-block;
+        vertical-align: top;
+        text-align: center;
+      }
+      .three-columns .padding {
+        padding: 15px;
+      }
+      .three-columns .content {
+        font-size: 15px;
+        line-height: 20px;
+        padding: 0 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <center class="wrapper">
+      <table role="presentation" class="main">
+        <!-- TOP BORDER -->
+        <tr>
+          <td height="10" style="background: #12112f"></td>
+        </tr>
+        <!-- LOGO -->
+        <tr>
+          <td style="padding: 15px 0 5px">
+            <table role="presentation" width="100%">
+              <tr>
+                <td class="two-columns">
+                  <table role="presentation" class="column">
+                    <tr>
+                      <td style="padding: 0 62px 10px">
+                        <a href="https://flovelace.github.io/portfolio-2.1/">
+                          <img
+                            src="./img/logo.png"
+                            alt="Delve into the Dungeon Logo"
+                            width="180px"
+                            title="Delve into the Dungeon Logo"
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  </table>
+
+                  <table role="presentation" class="column">
+                    <tr>
+                      <td style="padding: 10px 72px">
+                        <a href="#">
+                          <img src="img/black-facebook.png" alt="" width="30"
+                        /></a>
+                        <a href="#">
+                          <img src="img/black-twitter.png" alt="" width="30"
+                        /></a>
+                        <a href="#">
+                          <img src="img/black-youtube.png" alt="" width="30"
+                        /></a>
+                        <a href="#">
+                          <img src="img/black-linkedin.png" alt="" width="30"
+                        /></a>
+                        <a href="#">
+                          <img src="img/black-instagram.png" alt="" width="30"
+                        /></a>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <!-- Banner image -->
+      </table>
+    </center>
+  </body>
 </html>
